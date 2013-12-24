@@ -1,4 +1,4 @@
-﻿namespace Ichongli.TuiGrils.Service
+﻿namespace Ichongli.TuiGirls.Service
 {
     using Microsoft.Phone.Controls;
     using Microsoft.Phone.Shell;

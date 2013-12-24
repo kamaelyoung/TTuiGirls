@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
   <DefaultLanguage xmlns="" code="en-US" />
-  <App xmlns="" ProductID="{6e582662-7762-4caa-9cd4-720d16be03ea}" Title="Ichongli.TuiGrils" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Ichongli.TuiGrils author" Description="Sample description" Publisher="Ichongli.TuiGrils" PublisherID="{05c5f27c-96f2-4e59-a04f-560392471664}">
+  <App xmlns="" ProductID="{6e582662-7762-4caa-9cd4-720d16be03ea}" Title="Ichongli.TuiGirls" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Ichongli.TuiGirls author" Description="Sample description" Publisher="Ichongli.TuiGirls" PublisherID="{05c5f27c-96f2-4e59-a04f-560392471664}">
     <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING" />
@@ -14,12 +14,12 @@
       <DefaultTask Name="_default" NavigationPage="/Views/MainPage.xaml" />
     </Tasks>
     <Tokens>
-      <PrimaryToken TokenID="Ichongli.TuiGrilsToken" TaskName="_default">
+      <PrimaryToken TokenID="Ichongli.TuiGirlsToken" TaskName="_default">
         <TemplateFlip>
           <SmallImageURI IsRelative="true" IsResource="false">Assets\Tiles\FlipCycleTileSmall.png</SmallImageURI>
           <Count>0</Count>
           <BackgroundImageURI IsRelative="true" IsResource="false">Assets\Tiles\FlipCycleTileMedium.png</BackgroundImageURI>
-          <Title>Ichongli.TuiGrils</Title>
+          <Title>Ichongli.TuiGirls</Title>
           <BackContent>
           </BackContent>
           <BackBackgroundImageURI>

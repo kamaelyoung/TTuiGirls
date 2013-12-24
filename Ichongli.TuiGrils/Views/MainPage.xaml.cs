@@ -7,9 +7,9 @@ using System.Windows.Controls;
 using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
-using Ichongli.TuiGrils.Resources;
+using Ichongli.TuiGirls.Resources;
 
-namespace Ichongli.TuiGrils.Views
+namespace Ichongli.TuiGirls.Views
 {
     public partial class MainPage : PhoneApplicationPage
     {

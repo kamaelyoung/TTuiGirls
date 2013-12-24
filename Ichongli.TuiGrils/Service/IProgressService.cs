@@ -1,4 +1,4 @@
-﻿namespace Ichongli.TuiGrils.Service
+﻿namespace Ichongli.TuiGirls.Service
 {
     using System;
     using System.Collections.Generic;

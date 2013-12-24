@@ -1,6 +1,6 @@
-﻿using Ichongli.TuiGrils.Resources;
+﻿using Ichongli.TuiGirls.Resources;
 
-namespace Ichongli.TuiGrils
+namespace Ichongli.TuiGirls
 {
     /// <summary>
     /// Provides access to string resources.

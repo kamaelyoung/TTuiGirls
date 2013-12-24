@@ -1,10 +1,10 @@
-﻿namespace Ichongli.TuiGrils
+﻿namespace Ichongli.TuiGirls
 {
     using Caliburn.Micro;
     using Caliburn.Micro.Autofac;
     using Caliburn.Micro.Logging;
-    using Ichongli.TuiGrils.Service;
-    using Ichongli.TuiGrils.ViewModels;
+    using Ichongli.TuiGirls.Service;
+    using Ichongli.TuiGirls.ViewModels;
     using System;
     using System.Collections.Generic;
     using System.Linq;

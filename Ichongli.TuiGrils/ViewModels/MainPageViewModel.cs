@@ -1,8 +1,8 @@
 ﻿
 
-namespace Ichongli.TuiGrils.ViewModels
+namespace Ichongli.TuiGirls.ViewModels
 {
-    using Ichongli.TuiGrils.Service;
+    using Ichongli.TuiGirls.Service;
     using System;
     using System.Collections.Generic;
     using System.Linq;
