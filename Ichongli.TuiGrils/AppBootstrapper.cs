@@ -13,23 +13,15 @@
 
     public class AppBootstrapper : AutofacBootstrapper
     {
-        private PhoneContainer container;
-
-        static AppBootstrapper()
+        protected override void ConfigureBootstrapper()
         {
-            LogManager.GetLog = type => new DebugLogger(type);
-        }
+            //  you must call the base version first!
+            base.ConfigureBootstrapper();
 
-        protected override void Configure()
-        {
-            // container = new PhoneContainer(RootFrame);
-
-            //if (!Execute.InDesignMode)
-            //    container.RegisterPhoneServices();
-
-            container.Instance<IProgressService>(new ProgressService(RootFrame));
-
-            container.PerRequest<MainPageViewModel>();
+            //  override namespace naming convention
+            EnforceNamespaceConvention = false;
+            //  change our view model base type
+            //ViewModelBaseType = typeof(IShell);
         }
     }
 }
